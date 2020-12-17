@@ -252,7 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   starttimebtwshot: 4
   projectile: {fileID: 716064976353704115, guid: 017f524d5cc93204a95866ea53dcfb10, type: 3}
-  radius: 1
+  radius: 7
   center: {fileID: 4861597336123611537}
   Player:
     serializedVersion: 2
