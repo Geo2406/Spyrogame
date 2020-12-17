@@ -34,7 +34,7 @@ public class Enemyblobshoot : MonoBehaviour
     {
         if(col.gameObject.tag == "shield")
         {
-            Destroy(GameObject);
+            Destroy(gameObject);
         }
     }
    
