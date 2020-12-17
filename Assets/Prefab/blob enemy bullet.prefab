@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -54165211430666675}
   - component: {fileID: 1354985490725418469}
   - component: {fileID: 7777303827831272871}
+  - component: {fileID: 2208242736545627367}
   m_Layer: 0
   m_Name: blob enemy bullet
   m_TagString: Untagged
@@ -136,3 +137,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   rb: {fileID: 1354985490725418469}
+--- !u!114 &2208242736545627367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5110184256700493244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74636af303e281544b73b4c47670f2ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -98,7 +98,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00904417, y: -0.51258874}
+  m_Offset: {x: 0.044975102, y: -0.51258874}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -109,7 +109,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 6.5455284, y: 1.2588186}
+  m_Size: {x: 3.1964607, y: 1.2588186}
   m_EdgeRadius: 0
 --- !u!1 &952406645342588841
 GameObject:
@@ -283,8 +283,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Bullet: {fileID: 5110184256700493244, guid: 017f524d5cc93204a95866ea53dcfb10, type: 3}
   firerate: 3
-  radius: 0
-  Bullethit:
-    serializedVersion: 2
-    m_Bits: 1024
-  Detector: {fileID: 510009036300677407}
