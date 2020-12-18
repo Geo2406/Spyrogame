@@ -6,8 +6,8 @@ TagManager:
   tags:
   - Platform
   - shield
-  - Bullet spwaner
   - Bullet
+  - Spike
   layers:
   - Default
   - TransparentFX
