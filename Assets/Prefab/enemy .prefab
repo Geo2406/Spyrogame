@@ -250,9 +250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc4cb021e620cd14f9deea0244ed52b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starttimebtwshot: 4
+  starttimebtwshot: 1
   projectile: {fileID: 716064976353704115, guid: 017f524d5cc93204a95866ea53dcfb10, type: 3}
-  radius: 7
+  radius: 10
   center: {fileID: 4861597336123611537}
   Player:
     serializedVersion: 2

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6293786656484401673}
   - component: {fileID: 7135850125159719743}
   - component: {fileID: 5254602379708530454}
+  - component: {fileID: 4877053283291923434}
   m_Layer: 0
   m_Name: water drop
   m_TagString: Untagged
@@ -144,3 +145,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.69, y: 1.14}
   m_EdgeRadius: 0
+--- !u!114 &4877053283291923434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2968693971373250960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac668ea933a617541a822a5ee2062ebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
