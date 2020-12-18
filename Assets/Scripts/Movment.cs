@@ -29,6 +29,9 @@ public class Movment : MonoBehaviour
     private float JumpTimeCounter;
     private bool isjumping;
 
+    Realenemy enemyscript;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -87,7 +90,8 @@ public class Movment : MonoBehaviour
 
             foreach(Collider2D enemy in enemies)
             {
-                Destroy(enemy.gameObject);
+                enemyscript = enemy.GetComponent<Realenemy>();
+                enemyscript.Damage(1);
             }
         }
 
