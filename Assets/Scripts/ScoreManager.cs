@@ -11,6 +11,8 @@ public class ScoreManager : MonoBehaviour
     public TextMeshProUGUI text;
     int score;
 
+    public GameObject KeyDoor;
+
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +26,10 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (score == 10)
+        {
+            Destroy(KeyDoor);
+        }
     }
 
     public void ChangeScore(int coinValue)
