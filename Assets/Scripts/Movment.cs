@@ -51,7 +51,7 @@ public class Movment : MonoBehaviour
         anim.SetFloat("Speed", Mathf.Abs(x));
       
 
-       
+      
         
 
 
@@ -72,6 +72,8 @@ public class Movment : MonoBehaviour
       
 
     }
+
+    
 
     void Attack()
     {
