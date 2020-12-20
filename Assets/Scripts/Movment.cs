@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Movment : MonoBehaviour
 {
@@ -9,6 +11,9 @@ public class Movment : MonoBehaviour
     public Rigidbody2D rb;
     public Animator anim;
 
+    public bool adminOn = false;
+    public GameObject adminMode;
+    public bool adminCanBeActivated;
 
     public Transform Hitpoint;
     public float radiusHit;
@@ -82,7 +87,32 @@ public class Movment : MonoBehaviour
 
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.F1) && adminOn == false && adminCanBeActivated == true)
+        {
+            adminOn = true;
+            adminMode.SetActive(true);
+        }
+        if (Input.GetKeyDown(KeyCode.F9) && adminOn == true)
+        {
+            adminOn = false;
+            adminMode.SetActive(false);
+        }
+        if (Input.GetKeyDown(KeyCode.R) && adminOn == true)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);           
+        }
+        if (Input.GetKeyDown(KeyCode.F2) && adminOn == true)
+        {
+            jumpforce = jumpforce +5;
+        }
+        if (Input.GetKeyDown(KeyCode.F3) && adminOn == true)
+        {
+            jumpforce = jumpforce - 5;
+        }
+        if (Input.GetKeyDown(KeyCode.F4) && adminOn == true)
+        {
+            checkradius = 10000;
+        }
 
         if (Input.GetKeyDown(KeyCode.J))
         {
@@ -157,4 +187,5 @@ public class Movment : MonoBehaviour
         playerleft = !playerleft;
         transform.Rotate(0, 180, 0);
     }
+
 }
