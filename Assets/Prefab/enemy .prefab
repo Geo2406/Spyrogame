@@ -124,7 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7856534d7aa9804e8ca7fe94db36332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lives: 3
+  lives: 1
 --- !u!1 &952406645342588841
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 4416824969841786222}
   m_Layer: 0
   m_Name: Spawner
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -246,8 +246,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2864432520922550212}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.3, y: 0.26, z: -0.24312653}
-  m_LocalScale: {x: 6.7070947, y: 6.095889, z: 1}
+  m_LocalPosition: {x: -0.07, y: 0.26000082, z: -0.24312653}
+  m_LocalScale: {x: 6.707094, y: 6.095889, z: 1}
   m_Children: []
   m_Father: {fileID: 952406644532020899}
   m_RootOrder: 1
@@ -264,9 +264,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc4cb021e620cd14f9deea0244ed52b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  starttimebtwshot: 2.5
+  starttimebtwshot: 3.5
   projectile: {fileID: 716064976353704115, guid: 017f524d5cc93204a95866ea53dcfb10, type: 3}
-  radius: 10
+  radius: 2
   center: {fileID: 4861597336123611537}
   Player:
     serializedVersion: 2

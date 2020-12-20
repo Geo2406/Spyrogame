@@ -12,6 +12,8 @@ public class ScoreManager : MonoBehaviour
     int score;
 
     public GameObject KeyDoor;
+    public GameObject KeyDoor2;
+    public GameObject KeyDoor3;
 
 
     // Start is called before the first frame update
@@ -29,6 +31,17 @@ public class ScoreManager : MonoBehaviour
         if (score == 10)
         {
             Destroy(KeyDoor);
+        }
+
+
+        if (score == 20)
+        {
+            Destroy(KeyDoor2);
+        }
+
+        if (score == 35)
+        {
+            Destroy(KeyDoor3);
         }
     }
 
