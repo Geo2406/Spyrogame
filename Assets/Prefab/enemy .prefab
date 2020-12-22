@@ -124,6 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7856534d7aa9804e8ca7fe94db36332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnemyParticle: {fileID: 6610165979039420516, guid: f8708a64c64a4ab439c1d4d222eb36bb, type: 3}
   lives: 1
 --- !u!1 &952406645342588841
 GameObject:

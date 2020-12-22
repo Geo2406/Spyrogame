@@ -34,6 +34,8 @@ public class Movment : MonoBehaviour
     private float JumpTimeCounter;
     private bool isjumping;
 
+    
+
     Realenemy enemyscript;
 
 
@@ -124,6 +126,7 @@ public class Movment : MonoBehaviour
             {
                 enemyscript = enemy.GetComponent<Realenemy>();
                 enemyscript.Damage(1);
+                
             }
         }
 

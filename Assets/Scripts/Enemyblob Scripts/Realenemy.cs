@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Realenemy : MonoBehaviour
 {
-
+    public GameObject EnemyParticle;
 
     public int lives;
     // Start is called before the first frame update
@@ -16,9 +16,10 @@ public class Realenemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(lives < 0)
+        if(lives <= 0)
         {
-            Destroy(gameObject);
+            Destroy(gameObject, 0.5f);
+            Instantiate(EnemyParticle, transform.position, Quaternion.identity);
         }
 
 
