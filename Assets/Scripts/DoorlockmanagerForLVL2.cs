@@ -13,7 +13,7 @@ public class DoorlockmanagerForLVL2 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Score = ScoreManager.score;
+        Score = ScoreManager.instance.score;
 
 
 
@@ -22,7 +22,7 @@ public class DoorlockmanagerForLVL2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Score.score == 10)
+        if (ScoreManager.instance.score == 10)
         {
             Destroy(KeyDoor);
         }
