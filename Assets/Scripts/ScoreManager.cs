@@ -9,7 +9,7 @@ public class ScoreManager : MonoBehaviour
 
     public static ScoreManager instance;
     public TextMeshProUGUI text;
-    int score;
+    public int score;
 
     public GameObject KeyDoor;
     public GameObject KeyDoor2;
