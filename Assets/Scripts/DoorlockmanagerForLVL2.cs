@@ -5,15 +5,18 @@ using UnityEngine;
 public class DoorlockmanagerForLVL2 : MonoBehaviour
 {
 
-    ScoreManager Score;
-    public GameObject KeyDoor;
+     public int Score;
+     public GameObject KeyDoor;
 
-
+    
 
     // Start is called before the first frame update
     void Start()
     {
-        Score = GetComponent<ScoreManager>();
+        Score = ScoreManager.score;
+
+
+
     }
 
     // Update is called once per frame
