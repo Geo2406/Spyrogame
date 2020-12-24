@@ -116,6 +116,17 @@ public class Movment : MonoBehaviour
             checkradius = 10000;
         }
 
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            anim.SetTrigger("Shoot");
+
+        }
+       
+
+
+
+
+
         if (Input.GetKeyDown(KeyCode.J))
         {
             Attack();
@@ -143,6 +154,8 @@ public class Movment : MonoBehaviour
             anim.SetBool("isgrounded", isgrounded);
             isjumping = true;
             JumpTimeCounter = JumpTime;
+           
+            
 
         }
         else if(isgrounded == false)
