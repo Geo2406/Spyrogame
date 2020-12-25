@@ -36,6 +36,8 @@ public class Movment : MonoBehaviour
 
     
 
+    
+
     Realenemy enemyscript;
 
 
@@ -46,6 +48,8 @@ public class Movment : MonoBehaviour
 
         isgrounded = true;
         anim = GetComponent<Animator>();
+
+        
     }
 
     // Update is called once per frame
@@ -116,14 +120,13 @@ public class Movment : MonoBehaviour
             checkradius = 10000;
         }
 
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            anim.SetTrigger("Shoot");
-
-        }
+        
+        
+            
+        
        
 
-
+        
 
 
 
@@ -198,10 +201,13 @@ public class Movment : MonoBehaviour
 
     }
 
-    void turn()
+    public void turn()
     {
         playerleft = !playerleft;
-        transform.Rotate(0, 180, 0);
+        //transform.Rotate(0, 180, 0);
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
     }
 
 }

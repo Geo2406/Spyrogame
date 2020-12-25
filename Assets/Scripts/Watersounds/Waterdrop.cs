@@ -22,6 +22,7 @@ public class Waterdrop : MonoBehaviour
         if (col.gameObject.tag == "Platform")
         {
             Destroy(gameObject);
+            SoundManager.SoundPlayer("Water Drop");
         }
     }
 
