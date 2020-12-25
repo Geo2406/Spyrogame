@@ -34,9 +34,10 @@ public class Movment : MonoBehaviour
     private float JumpTimeCounter;
     private bool isjumping;
 
+   
     
 
-    
+
 
     Realenemy enemyscript;
 
@@ -120,13 +121,12 @@ public class Movment : MonoBehaviour
             checkradius = 10000;
         }
 
-        
-        
-            
-        
-       
 
-        
+     
+
+
+
+
 
 
 
@@ -204,10 +204,8 @@ public class Movment : MonoBehaviour
     public void turn()
     {
         playerleft = !playerleft;
-        //transform.Rotate(0, 180, 0);
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+        transform.Rotate(0, 180, 0);
+        
     }
 
 }

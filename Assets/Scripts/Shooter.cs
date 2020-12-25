@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShootPoint : MonoBehaviour
+public class Shooter : MonoBehaviour
 {
+
 
     public GameObject projec;
     public float originaltimetoshoot;
     float timetoshoot;
     public Animator anim;
-
-
+    public float speed;
     // Start is called before the first frame update
     void Start()
     {
+
         timetoshoot = originaltimetoshoot;
         anim = GetComponent<Animator>();
     }
@@ -35,6 +36,11 @@ public class ShootPoint : MonoBehaviour
 
     void shoot()
     {
-        Instantiate(projec, transform.position, Quaternion.identity); ;
+        var Bullet = Instantiate(projec, transform.position, Quaternion.identity);
+        Rigidbody2D rb = Bullet.GetComponent<Rigidbody2D>();
+
+        rb.AddForce(transform.forward * speed, ForceMode2D.Impulse);
+
     }
 }
+
