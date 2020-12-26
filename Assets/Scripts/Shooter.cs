@@ -39,7 +39,12 @@ public class Shooter : MonoBehaviour
         var Bullet = Instantiate(projec, transform.position, Quaternion.identity);
         Rigidbody2D rb = Bullet.GetComponent<Rigidbody2D>();
 
-        rb.AddForce(transform.forward * speed, ForceMode2D.Impulse);
+        rb.AddForce(transform.right * speed, ForceMode2D.Impulse);
+
+        if (transform.rotation.y < 0)
+        {
+            Bullet.GetComponent<SpriteRenderer>().flipX = true;
+        }
 
     }
 }
