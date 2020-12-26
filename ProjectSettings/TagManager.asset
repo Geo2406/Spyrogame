@@ -11,6 +11,8 @@ TagManager:
   - Stars
   - CavePlatform
   - ScoreMan
+  - Fireball
+  - BlobEnemy
   layers:
   - Default
   - TransparentFX

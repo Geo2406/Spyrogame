@@ -29,6 +29,13 @@ public class Realenemy : MonoBehaviour
     }
 
 
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Fireball")
+        {
+            Destroy(gameObject);
+        }
+    }
 
     public void Damage(int damage)
     {

@@ -25,6 +25,7 @@ public class Shooter : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.K) && timetoshoot < 0)
         {
             shoot();
+            
             timetoshoot = originaltimetoshoot;
             anim.SetTrigger("Shoot");
         }
@@ -40,6 +41,7 @@ public class Shooter : MonoBehaviour
         Rigidbody2D rb = Bullet.GetComponent<Rigidbody2D>();
 
         rb.AddForce(transform.right * speed, ForceMode2D.Impulse);
+        
 
         if (transform.rotation.y < 0)
         {

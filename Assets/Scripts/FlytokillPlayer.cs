@@ -31,4 +31,12 @@ public class FlytokillPlayer : MonoBehaviour
             transform.position = Vector2.MoveTowards(this.transform.position, Player.position, speed * Time.deltaTime);
         }
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.tag == "Fireball")
+        {
+            Destroy(gameObject);
+        }
+    }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Waterdrop2 : MonoBehaviour
+public class ExtraFireBallThings : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,13 +13,12 @@ public class Waterdrop2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Destroy(gameObject, 6f);
+        Destroy(gameObject, 3f);
     }
 
-
-    void OnCollisionEnter2D(Collision2D col)
+    void OnTriggernEnter2D(Collider other)
     {
-        if (col.gameObject.tag == "Spike")
+        if (other.gameObject.tag == "BlobEnemy")
         {
             Destroy(gameObject);
         }

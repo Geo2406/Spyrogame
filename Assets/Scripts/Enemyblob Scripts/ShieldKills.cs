@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Waterdrop2 : MonoBehaviour
+public class ShieldKills : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,15 +13,15 @@ public class Waterdrop2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Destroy(gameObject, 6f);
+        
     }
-
 
     void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "Spike")
+        if (col.gameObject.tag == "shield")
         {
             Destroy(gameObject);
         }
+
     }
 }
