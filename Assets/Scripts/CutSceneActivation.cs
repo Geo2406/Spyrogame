@@ -42,6 +42,6 @@ public class CutSceneActivation : MonoBehaviour
 
     public void nextlevel()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }

@@ -8,7 +8,8 @@ public class Bullet : MonoBehaviour
 
     public float speed;
     public Transform Player;
-    Vector2 target;
+    private Vector2 target;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -16,15 +17,17 @@ public class Bullet : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player").transform;
 
 
-
-
         target = new Vector2(Player.position.x, Player.position.y);
+
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        Destroy(gameObject, 2f);
 
         if(transform.position.x == target.x && transform.position.y == target.y)
         {
