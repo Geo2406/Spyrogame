@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Quit : MonoBehaviour
+public class Changeintolevel1 : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -13,16 +14,22 @@ public class Quit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        if (Input.GetKey("escape"))
-        {
-            Application.Quit();
-        }
+        
     }
 
-
-    public void quit()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        Application.Quit();
+        if (other.gameObject.tag == "Player")
+        {
+
+
+            SceneManager.LoadScene(2);
+
+
+
+
+
+
+        }
     }
 }
