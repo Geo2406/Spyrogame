@@ -21,7 +21,7 @@ public class Spikedamage : MonoBehaviour
     {
         if(col.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
     }
