@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Kill2 : MonoBehaviour
+public class LevelManager : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,5 +17,18 @@ public class Kill2 : MonoBehaviour
         
     }
 
-    
+    public void changeintoleveltut()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void changeintolevel1()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    public void changeintolevel2()
+    {
+        SceneManager.LoadScene(3);
+    }
 }

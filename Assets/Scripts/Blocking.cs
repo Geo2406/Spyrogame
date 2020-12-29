@@ -5,7 +5,7 @@ using UnityEngine;
 public class Blocking : MonoBehaviour
 {
 
-    public GameObject Player;
+     GameObject Player;
 
     public GameObject block;
 
@@ -21,15 +21,15 @@ public class Blocking : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.B))
+        if(Input.GetKeyDown(KeyCode.B))
         {
-            Player.GetComponent<Movment>().enabled = false;
+            Player.GetComponent<Movment>().speed = 0; 
             block.SetActive(true);
             anim.SetBool("Blocking", true);
         }
-        else
+        else if(Input.GetKeyUp(KeyCode.B))
         {
-            Player.GetComponent<Movment>().enabled = true;
+            Player.GetComponent<Movment>().speed = 6;
             block.SetActive(false);
             anim.SetBool("Blocking", false);
         }

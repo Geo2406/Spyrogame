@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShieldKills : MonoBehaviour
+public class Bulletkill : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -18,7 +18,10 @@ public class ShieldKills : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
-       
+        if (col.gameObject.tag == "Bullet")
+        {
+            Destroy(col.gameObject);
+        }
 
     }
 }

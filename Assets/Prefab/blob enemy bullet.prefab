@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 3661147114846151869}
   - component: {fileID: 3200562174943123307}
   - component: {fileID: 1891289109825725724}
-  - component: {fileID: -7318910096187517127}
   m_Layer: 0
   m_Name: blob enemy bullet
   m_TagString: Bullet
@@ -134,7 +133,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.020649984, y: -0.007807046}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -145,17 +144,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.43, y: 0.44}
+  m_Size: {x: 0.47130004, y: 0.4556141}
   m_EdgeRadius: 0
---- !u!114 &-7318910096187517127
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716064976353704115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f7fb541ff77a154eb4cf62cdbc6f03b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
