@@ -22,7 +22,7 @@ public class DoorlockmanagerForLVL2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ScoreManager.instance.score == 10)
+        if (ScoreManager.instance.score == 35)
         {
             Destroy(KeyDoor);
         }
