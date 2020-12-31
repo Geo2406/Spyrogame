@@ -131,7 +131,7 @@ public class Movment : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetButtonDown("Fire1"))
         {
             Attack();
             Collider2D[] enemies = Physics2D.OverlapCircleAll(Hitpoint.position, radiusHit, Hit);

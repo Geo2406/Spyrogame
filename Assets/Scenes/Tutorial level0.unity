@@ -789,7 +789,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 565.9, y: 117.6}
+  m_AnchoredPosition: {x: 565.9, y: 152}
   m_SizeDelta: {x: 192.3548, y: -51.1159}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435625325
@@ -812,10 +812,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'this are blob you can stomp on them by pressing j
+  m_text: 'this are blob you can stomp on them by left clicking
 
-    also it can also
-    shoot you, you can also block the bullets by pressing B'
+    also it can
+    also shoot you, you can also block the bullets by pressing B'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1083,8 +1083,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is flying enemy. you can kill him by throwing fire balls by pressing
-    k
+  m_text: This is flying enemy. you can kill him by throwing fire balls by right
+    clicking
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3255,6 +3255,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5331932108801114951, guid: d70af5f89e0f5494ea8ad530f887a1e9, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1932530520}
+    - target: {fileID: 6453781390491054508, guid: d70af5f89e0f5494ea8ad530f887a1e9, type: 3}
       propertyPath: Player
       value: 
       objectReference: {fileID: 1932530520}

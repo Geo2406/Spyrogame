@@ -22,7 +22,7 @@ public class Shooter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.K) && timetoshoot < 0)
+        if (Input.GetButtonDown("Fire2") && timetoshoot < 0)
         {
             shoot();
             
