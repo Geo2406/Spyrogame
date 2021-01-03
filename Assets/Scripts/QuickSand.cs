@@ -25,11 +25,7 @@ public class QuickSand : MonoBehaviour
     {
         istouching = Physics2D.OverlapCircle(Center.position, radius, player);
 
-        void OnGizmosSelected()
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawSphere(Center.position, radius);
-        }
+      
 
         if (istouching)
         {
