@@ -25,15 +25,26 @@ public class QuickSand : MonoBehaviour
     {
         istouching = Physics2D.OverlapCircle(Center.position, radius, player);
 
-      
+        QuickSand[] quicksand = FindObjectsOfType<QuickSand>();
+        bool istouchingquicksand = false;
+
+        for (int i = 0; i < quicksand.Length; i++)
+        {
+            if (quicksand[i].istouching)
+            {
+                istouchingquicksand = true;
+                break;
+            }
+        }
+
 
         if (istouching)
         {
-            Player.GetComponent<Movment>().speed = 2f;
-            Player.GetComponent<Movment>().jumpforce = 1f;
-            rb.gravityScale = 0.5f;
+            Player.GetComponent<Movment>().speed = 1f;
+            Player.GetComponent<Movment>().jumpforce = 0.5f;
+            rb.gravityScale = 0.1f;
 
-        }else
+        } else if (istouchingquicksand == false)
         {
             Player.GetComponent<Movment>().speed = 6f;
             Player.GetComponent<Movment>().jumpforce = 4f;

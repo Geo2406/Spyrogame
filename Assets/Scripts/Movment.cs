@@ -26,7 +26,7 @@ public class Movment : MonoBehaviour
     public Transform feetpos;
     public LayerMask ground;
     public float checkradius;
-    bool isgrounded;
+    public bool isgrounded;
 
     public GameObject Player;
 
@@ -36,7 +36,7 @@ public class Movment : MonoBehaviour
 
    
     
-
+    
 
 
     Realenemy enemyscript;
@@ -141,6 +141,7 @@ public class Movment : MonoBehaviour
             {
                 enemyscript = enemy.GetComponent<Realenemy>();
                 enemyscript.Damage(1);
+
                 
             }
         }
