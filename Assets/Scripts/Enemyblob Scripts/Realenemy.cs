@@ -14,15 +14,16 @@ public class Realenemy : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if(lives <= 0)
+
+
+        if (lives <= 0)
         {
-            Destroy(gameObject, 0.5f);
             Instantiate(EnemyParticle, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+            
         }
-
-
 
 
 

@@ -40,12 +40,12 @@ public class ScoreManager : MonoBehaviour
             Destroy(KeyDoor2);
         }
 
-        if (score == 35)
+        if (score == 30)
         {
             Destroy(KeyDoor3);
         }
 
-        if (score == 43)
+        if (score == 40)
         {
             Destroy(KeyDoor4);
         }
