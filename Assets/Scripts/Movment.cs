@@ -85,6 +85,18 @@ public class Movment : MonoBehaviour
 
     }
 
+    public void MoveRight()
+    {
+        
+        rb.velocity = new Vector2(1 * speed, rb.velocity.y);
+    }
+
+    public void MoveLeft()
+    {
+      
+        rb.velocity = new Vector2(1 * -speed, rb.velocity.y);
+    }
+
 
 
 

@@ -2441,6 +2441,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 40308578}
+  particles: {fileID: 0}
 --- !u!61 &40308581
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10185,6 +10186,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 231328501}
+  particles: {fileID: 0}
 --- !u!114 &231328503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11418,6 +11420,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 250870894}
+  particles: {fileID: 0}
 --- !u!114 &250870896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24313,6 +24316,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 530565656}
+  particles: {fileID: 0}
 --- !u!61 &530565660
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24683,6 +24687,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 536729440}
+  particles: {fileID: 0}
 --- !u!114 &536729442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25388,6 +25393,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 549433093}
+  particles: {fileID: 0}
 --- !u!114 &549433095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27208,6 +27214,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 595073276}
+  particles: {fileID: 0}
 --- !u!114 &595073278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33401,6 +33408,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 721094167}
+  particles: {fileID: 0}
 --- !u!61 &721094171
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -42454,6 +42462,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 907288232}
+  particles: {fileID: 0}
 --- !u!114 &907288234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44878,6 +44887,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 962685473}
+  particles: {fileID: 0}
 --- !u!114 &962685475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46281,6 +46291,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 989525945}
+  particles: {fileID: 0}
 --- !u!114 &989525947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47040,6 +47051,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 1018752697}
+  particles: {fileID: 0}
 --- !u!114 &1018752699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49081,6 +49093,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 1049926468}
+  particles: {fileID: 0}
 --- !u!114 &1049926470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49327,6 +49340,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 1050337812}
+  particles: {fileID: 0}
 --- !u!61 &1050337816
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -52976,6 +52990,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 1136373295}
+  particles: {fileID: 0}
 --- !u!114 &1136373297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54244,6 +54259,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 1160544389}
+  particles: {fileID: 0}
 --- !u!61 &1160544393
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -56230,6 +56246,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 1202311296}
+  particles: {fileID: 0}
 --- !u!114 &1202311298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58962,6 +58979,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 1248427536}
+  particles: {fileID: 0}
 --- !u!114 &1248427538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64863,6 +64881,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 1369590409}
+  particles: {fileID: 0}
 --- !u!61 &1369590413
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -66056,6 +66075,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 1393895868}
+  particles: {fileID: 0}
 --- !u!61 &1393895872
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -72603,6 +72623,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 1511915275}
+  particles: {fileID: 0}
 --- !u!114 &1511915277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80816,6 +80837,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 1671668517}
+  particles: {fileID: 0}
 --- !u!114 &1671668519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82430,7 +82452,7 @@ MonoBehaviour:
   anim: {fileID: 1702390717}
   adminOn: 0
   adminMode: {fileID: 0}
-  adminCanBeActivated: 1
+  adminCanBeActivated: 0
   Hitpoint: {fileID: 775837611}
   radiusHit: 1
   Hit:
@@ -84342,6 +84364,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 1744307785}
+  particles: {fileID: 0}
 --- !u!114 &1744307787
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -124,6 +124,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   center: {fileID: 4238196502981158047}
+  particles: {fileID: 7450650707005019580, guid: f8708a64c64a4ab439c1d4d222eb36bb, type: 3}
 --- !u!61 &1908740999190597324
 BoxCollider2D:
   m_ObjectHideFlags: 0

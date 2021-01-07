@@ -13,6 +13,11 @@ public class FlytokillPlayer : MonoBehaviour
     bool istouching;
     public LayerMask player;
     public Transform center;
+
+    public GameObject particles;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +42,9 @@ public class FlytokillPlayer : MonoBehaviour
         if(other.gameObject.tag == "Fireball")
         {
             Destroy(gameObject);
+            Instantiate(particles, transform.position, Quaternion.identity);
         }
     }
+     
+ 
 }
