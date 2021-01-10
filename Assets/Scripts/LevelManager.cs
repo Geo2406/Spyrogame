@@ -31,4 +31,9 @@ public class LevelManager : MonoBehaviour
     {
         SceneManager.LoadScene(3);
     }
+
+    public void changeintolevel3()
+    {
+        SceneManager.LoadScene(4);
+    }
 }

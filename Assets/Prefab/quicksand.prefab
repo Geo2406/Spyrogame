@@ -95,7 +95,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6615932419389764618}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.19, z: 0}
+  m_LocalPosition: {x: 0, y: -2.96, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6615932420513625767}
@@ -116,7 +116,7 @@ MonoBehaviour:
   player:
     serializedVersion: 2
     m_Bits: 1024
-  radius: 4.4
+  radius: 3.4
   Center: {fileID: 6615932419389764621}
 --- !u!1 &6615932420513625764
 GameObject:
